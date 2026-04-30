@@ -1,2 +1,2 @@
-# typing_speed_test
-A GUI-based typing speed test built with Python (Tkinter) that measures WPM, accuracy, and time using real-time updates and character-level comparison.
+# Typing Speed Test (Python, Tkinter)
+A GUI-based typing speed test built using Python and Tkinter that measures words per minute (WPM), accuracy, and time taken through real-time updates. The application uses threading to continuously update the timer during typing and difflib for character-level accuracy comparison, allowing for more precise evaluation even with minor differences in whitespace. It includes features such as random sentence generation, a start and retry system, and an interactive user interface. Future improvements include optimizing thread management to prevent multiple timer threads and enhancing UI color contrast for better readability across devices.
